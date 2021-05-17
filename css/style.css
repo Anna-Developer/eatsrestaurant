@@ -15,10 +15,6 @@ a {
     margin: 0 auto;
 }
 
-/* nav {
-    position: relative;
-} */
-
 .header__flex {
     position: sticky;
     top: 0px;
@@ -34,6 +30,10 @@ a {
 
 .menu-adaptive {
     display: none;
+    position: relative;
+    font-size: 40px;
+    color: #FA4A0C;
+    cursor: pointer;
 }
 
 .menu {
@@ -41,10 +41,6 @@ a {
     flex-direction: row;
     grid-gap: 102px;
 }
-
-/* .nav__el {
-    margin-right: 105px;
-}*/
 
 .menu__link {
     font-size: 16px;
@@ -318,11 +314,7 @@ a {
     }
 
     .menu-adaptive {
-        position: relative;
         display: block;
-        font-size: 40px;
-        color: #FA4A0C;
-        cursor: pointer;
     }
 
     .menu {
